@@ -64,7 +64,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Add telegram id's separated with comma to which you want to restrict bot to
-restricted_ids = []
+restricted_ids = [@R15H1]
 conf = {}
 conf['restricted_ids'] = restricted_ids
 
